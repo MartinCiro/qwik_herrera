@@ -17,8 +17,8 @@ export default component$(() => {
       <span class="text-3xl"> {pokemonId} </span>
       <PokemonImage id={pokemonId.value} size={600} isFront={showImage.value}/>
       <div class="mt-2">
-        <button onClick$={() => change(1)} class="btn btn-primary">Increment</button>
-        <button onClick$={() => change(-1)} class="btn btn-primary">Decrement</button>
+        <button onClick$={() => change(1)} class="btn btn-primary mr-2">Increment</button>
+        <button onClick$={() => change(-1)} class="btn btn-primary mr-2">Decrement</button>
         <button onClick$={() => showImage.value = !showImage.value} class="btn btn-primary">Voltear</button>
       </div>
     </>

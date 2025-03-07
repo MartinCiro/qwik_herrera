@@ -1,7 +1,5 @@
 import { component$, useSignal, useTask$ } from "@builder.io/qwik";
 
-
-
 interface Props {
     id: number | string;
     size?: number;
