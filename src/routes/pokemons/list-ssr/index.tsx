@@ -37,7 +37,7 @@ export default component$(() => {
             </div>
             <div class="grid grid-cols-6 mt-5">
                 {
-                    pokemons.value.map(pokemon => ( // ✅ Acceder correctamente a `results`
+                    pokemons.value.map(pokemon => ( 
                         <div key={pokemon.name} class="m-5 flex flex-col justify-center items-center">
                             <PokemonImage id={pokemon.id} isFront={false} />
                             <span class="capitalize">{pokemon.name}</span>
